@@ -1,0 +1,22 @@
+.video_play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.6);
+    z-index: 100%;
+
+    & video{
+        width: 80%;
+        max-width: 800px;
+        height: auto;
+        border: 2px solid rgb(145, 136, 136);
+    }
+}
+.video_play.hide{
+display: none;
+}
