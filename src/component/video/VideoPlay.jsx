@@ -11,7 +11,7 @@ const closePlyaer=(e)=>{
   return (
   <>
     <div className={`video_play ${play ? '' : 'hide'}` } ref={player} onClick={closePlyaer}>.
-        <video src="video.mp4" autoPlay muted controls/>
+        <video src="./assets/video.mp4" autoPlay muted controls/>
     </div>
   </>
   )

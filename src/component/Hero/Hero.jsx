@@ -1,9 +1,9 @@
 import React from 'react'
 import './Hero.css'
-import image from '/hero.png'
+// import image from '/hero.png'
 const Hero = () => {
   return (<>
-    <div className='hero container'style={{backgroundImage:`url(${image})`}}>
+    <div className='hero container'>
       <div className='hero_text'>
         <h1>We ensure better education for better world</h1>
         <p>University established with clear mission,

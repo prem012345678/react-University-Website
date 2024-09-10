@@ -30,13 +30,13 @@ const Contact = () => {
     return (<>
         <div className='container contact'>
             <div className='contact_col'>
-                <h3>send us message <img src='msg-icon.png' /></h3>
+                <h3>send us message <img src='./assets/msg-icon.png' /></h3>
                 <p>Feel free to reach out through contact form or to find
                     our contact information below</p>
                 <ul>
-                    <li><img src='mail-icon.png' />university@gamil.com </li>
-                    <li><img src='phone-icon.png' />+91-8181881395</li>
-                    <li><img src='location-icon.png' />Maharaja Agrasen Himalayan Garhwal University
+                    <li><img src='./assets/mail-icon.png' />university@gamil.com </li>
+                    <li><img src='./assets/phone-icon.png' />+91-8181881395</li>
+                    <li><img src='./assets/location-icon.png' />Maharaja Agrasen Himalayan Garhwal University
                         Dhaid Gaon, Block pokhra,
                         District Pauri Garhwal,
                         Uttarakhand</li>

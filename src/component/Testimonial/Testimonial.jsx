@@ -24,14 +24,14 @@ const Testimonial = () => {
 
 return (<>
     <div className='container testimonial'>
-        <img src='next-icon.png' alt='' className='next-btn' onClick={slideForward} />
-        <img src='back-icon.png' alt='' className='back-btn' onClick={slideBackward} />
+        <img src='./assets/next-icon.png' alt='' className='next-btn' onClick={slideForward} />
+        <img src='./assets/back-icon.png' alt='' className='back-btn' onClick={slideBackward} />
         <div className='slider'>
             <ul ref={slider}>
                 <li>
                     <div className='slide'>
                         <div className='user_info'>
-                            <img src='user-1.png' />
+                            <img src='./assets/user-1.png' />
                             <div>
                                 <h3>William jckson</h3>
                                 <span>edusity,USA</span>
@@ -46,7 +46,7 @@ return (<>
                 <li>
                     <div className='slide'>
                         <div className='user_info'>
-                            <img src='user-2.png' />
+                            <img src='./assets/user-2.png' />
                             <div>
                                 <h3>William jckson</h3>
                                 <span>edusity,USA</span>
@@ -61,7 +61,7 @@ return (<>
                 <li>
                     <div className='slide'>
                         <div className='user_info'>
-                            <img src='user-3.png' />
+                            <img src='./assets/user-3.png' />
                             <div>
                                 <h3>William jckson</h3>
                                 <span>edusity,USA</span>
@@ -76,7 +76,7 @@ return (<>
                 <li>
                     <div className='slide'>
                         <div className='user_info'>
-                            <img src='user-4.png' />
+                            <img src='./assets/user-4.png' />
                             <div>
                                 <h3>William jckson</h3>
                                 <span>edusity,USA</span>

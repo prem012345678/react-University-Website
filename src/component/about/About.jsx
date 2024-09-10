@@ -4,8 +4,8 @@ const About = ({setPlay}) => {
   return (<>
     <div className='about container'>
         <div className='about_left'>
-            <img src='about.png' className='about_img'/>
-            <img src='play-icon.png' className='play_icon' onClick={()=>{
+            <img src='./assets/about.png' className='about_img'/>
+            <img src='./assets/play-icon.png' className='play_icon' onClick={()=>{
               setPlay(true)
             }}/>
         </div>
