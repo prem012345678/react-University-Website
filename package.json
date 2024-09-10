@@ -1,7 +1,7 @@
 {
   "homepage": "https://prem012345678.github.io/react-University-Website",
   "name": "university-clone",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
